@@ -289,6 +289,12 @@ footer {
   .hero-text h2 {
     font-size: 1.2rem;
   }
+  .contact-info {
+    font-size: 1.2rem;
+    padding: 1rem;
+    flex-direction: column; /* stack items */
+    gap: 10px;
+  }
 
   /* Mobile Menu */
   .nav-links {
@@ -333,6 +339,11 @@ footer {
   .nav-links {
     width: 100%;
     right: 0;
+  }
+  .contact-info {
+    font-size: 1rem;
+    padding: 0.8rem;
+    border-radius: 20px;
   }
 }
 html {
